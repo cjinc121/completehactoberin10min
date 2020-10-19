@@ -18,8 +18,8 @@ int main()
 {
  int n,i,fact=1;
  printf("Enter any number : ");
- scanf("%d", &n);
- for(i=1; i<=n; i++)
+ scanf("%d", &n);//accepting the number n 
+ for(i=1; i<=n; i++)//loop for calculating factorial
     fact = fact * i;
  printf("Factorial value of %d = %d",n,fact);
  return 0;
