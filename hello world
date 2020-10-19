@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include <stdio.h>//header file for printf
 int main()
 {
   
-   printf("Hello, World!");
+   printf("Hello, World!");//for printing a message
    return 0;
 }
